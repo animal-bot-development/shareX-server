@@ -1,0 +1,6 @@
+{
+    "mongoURI": "mongodb://localhost:27017",
+    "webhook": "https://discordapp.com/api/webhooks/abc/xyz",
+    "token": "password",
+    "domain": "https://matt-the-scottish-twat.cc"
+}
