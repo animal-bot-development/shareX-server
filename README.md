@@ -6,12 +6,13 @@ This is a simple ShareX server that can host:
 
 ## Config
 The config.json should follow this format:
-    mongoURI: A mongoDB URL that can store the images
-    webhook: A Discord Webhook URL that is used for sending logs
-    token: The password that you want to use for the Authentication header
-    domain: The domain name that the webhook and upload routes return
-    port?: A port number (if not provided, it will default to 3000)
-
+```yaml
+mongoURI: A mongoDB URL that can store the images
+webhook: A Discord Webhook URL that is used for sending logs
+token: The password that you want to use for the Authentication header
+domain: The domain name that the webhook and upload routes return
+port?: A port number (if not provided, it will default to 3000)
+```
 ## Setting it up in ShareX
 1. Go to destinations at the side
 2. Set image, file and text uploader to Custom Image/File/Text Uploader
