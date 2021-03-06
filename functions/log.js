@@ -1,5 +1,5 @@
 const m = require('../models/index')
-function log (err, id) {
+async function log (err, id) {
     console.log(`[SHAREX-SERVER] ${err.stack}`)
     if (!id) {
         const id = await process.f.generateID(15, m.err)
